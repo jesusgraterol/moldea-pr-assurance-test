@@ -1,0 +1,8 @@
+version: 1
+context:
+  /moldea/context/refund-policy.md:
+    bindings:
+      - path: /src/policy/refund-policy.ts
+        symbol: canApproveRefund
+    affectedBy:
+      - /src/policy/refund-policy.ts
