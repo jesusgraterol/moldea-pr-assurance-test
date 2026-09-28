@@ -1,4 +1,4 @@
-version: invalid
+version: 1
 context:
   /moldea/context/refund-policy.md:
     bindings:
