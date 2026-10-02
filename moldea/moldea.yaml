@@ -1,0 +1,8 @@
+version: 1
+context:
+  /moldea/context/deployment-policy.md:
+    bindings:
+      - path: /src/deployment.ts
+        symbol: mayDeploy
+    affectedBy:
+      - /src/deployment.ts
