@@ -5,3 +5,5 @@ export const mayDeploy = (role: "admin" | "collaborator", reviewPassed: boolean)
 // qualification real-intake revision
 
 // qualification mapped intake revision
+
+// qualification verified mapping intake
