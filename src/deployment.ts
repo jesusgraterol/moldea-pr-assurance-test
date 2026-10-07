@@ -9,3 +9,5 @@ export const mayDeploy = (role: "admin" | "collaborator", reviewPassed: boolean)
 // qualification verified mapping intake
 
 // qualification intake with current configuration revision
+
+// qualification fallback comparison
