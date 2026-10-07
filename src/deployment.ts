@@ -1,1 +1,5 @@
-export const mayDeploy = (role: "admin" | "collaborator", reviewPassed: boolean): boolean => role === "admin" && reviewPassed;
+// qualification retains both deployment authorization requirements.
+export const mayDeploy = (role: "admin" | "collaborator", reviewPassed: boolean): boolean => {
+  if (role !== "admin") return false;
+  return reviewPassed;
+};
