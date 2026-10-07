@@ -3,3 +3,5 @@ export const mayDeploy = (role: "admin" | "collaborator", reviewPassed: boolean)
 // qualification initial scoped revision
 
 // qualification main intake revision
+
+// qualification schema-aligned intake revision
