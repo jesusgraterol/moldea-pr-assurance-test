@@ -6,3 +6,5 @@ context:
         symbol: mayDeploy
     affectedBy:
       - /src/deployment.ts
+
+# Disposable Cloud acceptance fixture 0a6cd40e-cbf1-4390-9863-a856e24d2500.
