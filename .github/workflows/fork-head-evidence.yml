@@ -1,0 +1,13 @@
+name: Fork head evidence
+on:
+  push:
+    branches:
+      - 'repository_test_93f0fc9e-97cf-41e7-be88-d2c010483644'
+permissions: {}
+jobs:
+  verify-fixture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Record the fork push
+        run: printf '%s\n' 'Fork head evidence'
