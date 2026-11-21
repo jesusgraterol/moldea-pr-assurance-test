@@ -1,0 +1,1 @@
+Reusable PR Assurance fixture. Test commands create fresh comparisons on this branch.
